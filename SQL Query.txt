@@ -1,0 +1,44 @@
+
+Query to run in SQL Script
+
+--To Count number of athlethes from each country
+
+SELECT COUNTRY,COUNT(*) AS TOTALATHELETS
+FROM athletes
+GROUP BY Country
+ORDER BY TOTALATHELETS DESC;
+
+
+--To calculate the total medals won by each country
+
+SELECT
+TeamCountry,
+SUM(Gold) Total_Gold,
+SUM(Silver) Total_Silver,
+SUM(Bronze) Total_Bronze
+FROM medals
+GROUP BY TeamCountry
+ORDER BY Total_Gold DESC;
+
+
+-- To calulate the average no of entries by gender for each discipline in Badminton
+
+SELECT Discipline,
+AVG(Female) Avg_Female,
+AVG(Male) Avg_Male
+FROM entryygen
+WHERE Discipline = 'Badminton'
+GROUP BY Discipline;
+
+
+
+-- To calulate the average no of entries by gender for each discipline 
+
+SELECT Discipline,
+AVG(Female) Avg_Female,
+AVG(Male) Avg_Male
+FROM entryygen
+WHERE Discipline = 'Badminton'
+GROUP BY Discipline;
+
+You can use many more query to get the data you want to find.
