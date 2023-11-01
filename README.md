@@ -1,5 +1,5 @@
 # TokyoAnalyzeUsingAzure
-Created simple mini project of Azure using its services
+Created simple mini project of Azure using its services.We have uploaded Our demo video Link on Google Drive https://drive.google.com/drive/folders/1LiRQW23ER5gb2zd4HnNld_2uvQ2MWKKd?usp=sharing 
 Short Description About Project
 Project Topic :  Olympic Data Analysis Project
 Project report outlines the process of analyzing Tokyo Olympic data using various Azure services. The team, consisting of Ms. Mansi Jadhav, Mr. Jayesh Waingankar, and Mr. Yogesh Pawar, leveraged services like Azure Data Factory, Azure Synapse Analytics, Azure Databricks, and App Registration. The report includes detailed steps, challenges faced, and lessons learned throughout the project. This project is an Olympic data analysis and reporting solution built using Azure services. In this project 4 azure services are used that are Azure Storage Account, Azure Data Factory, Azure Databricks, and Azure Synapse Analytics Workspace.
